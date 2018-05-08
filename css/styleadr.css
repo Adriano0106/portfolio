@@ -1,0 +1,50 @@
+/*#button {
+	width: 80px;
+	background-color: white;
+}*/
+
+input, textarea {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 1px 0px;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: black;
+}
+/* Sombreamento título ADRIANO */
+#header .logo {
+    color: #11A1D6;
+    text-shadow: 1px 1px 0px #FFF;
+}
+
+/* Banner Sombreamento */
+.banner-text h1, p{
+    text-shadow: 1px 1px 0px #FFF;
+}
+
+button {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+    color: gray;
+}
+
+a:visited {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #808080;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+#rodape {
+	padding-left: 40%;
+}
