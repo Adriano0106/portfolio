@@ -19,7 +19,7 @@ function enviaEmail($de, $assunto, $mensagem, $para, $email_servidor) {
 }
 
 $email_servidor = "files.000webhost.com";
-$para = "adriraikkonen@gmail.com";
+$para = "adriano.andrade.silva@hotmail.com";
 $de = pegaValor("email");
 $mensagem = pegaValor("mensagem");
 $assunto = pegaValor("assunto");
