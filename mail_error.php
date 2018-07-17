@@ -12,7 +12,7 @@
 <body>
 	<h1>Erro</h1>
 	<hr>
-	<p>Houve um erro no envio do e-mail. <a href="index.php">Tentar novamente</a>.</p>
+	<p>Houve um erro no envio do e-mail. <a href="index.html">Tentar novamente</a>.</p>
 </body>
 
 </html>
