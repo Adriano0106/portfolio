@@ -44,7 +44,8 @@
 				<nav class="navigation" role="navigation">
 					<ul class="primary-nav">
 						<li><a href="#introduction">Sobre Mim</a></li>
-                        <li><a href="#experience">Experiência</a></li>
+            <li><a href="#experience">Experiência</a></li>
+            <li><a href="#projects">Projetos</a></li>
 						<li><a href="#works">Principais Conhecimentos</a></li>
 						<li><a href="#contact">Contato</a></li>
 					</ul>
@@ -57,13 +58,14 @@
 			<div class="col-md-7 banner-inner-wrapper">
 				<div class="banner-text">
 					<h1>Eu sou Adriano. Desenvolvedor Full-Stack</h1>
-					<p>Portfolio One Page feito em Html, Css, Bootstrap, JavaScript e Php.</p>
+					<p>Portfolio One Page feito em Html, Css, Bootstrap, JavaScript (com um toque de NotifyJS) e Php.</p>
 					<a href="#introduction" class="btn">Descubra mais</a> </div>
 				<!-- banner text -->
 			</div>
 		</div>
 		<!-- Banner Section -->
 	</section>
+
 	<!-- Header Section -->
 	<!-- Intro Section -->
 	<section id="introduction" class="section introduction">
@@ -79,19 +81,22 @@
 					<div class="intro-content">
 						<h2>Bacharel em Ciência da Computação</h2>
 						<h4>Universidade Nove de Julho - Uninove</h4>
-                        <p>Formado em Ciência da Computação pela Universidade de Julho, tenho certificado de Design Gráfico pela Micro+ Informática, recentemente atuei na finalização de uma revista com o Adobe InDesign e leves edições de imagens no Photoshop.
-                        Durante meu período de estudos na faculdade, atuei como programador Php aos sábados como parte de um projeto durante 6 meses, nada muito avançado, somente comandos mais básicos e integração com o banco mysql, utilizando o phpmyadmin.
-                        Atualmente curso pela Udemy de forma Online, desenvolvimento em linguagem Ruby com o uso do framework Ruby on Rails, busco ingressar na área de desenvolvimento mesmo que seja um cargo júnior para poder iniciar e poder crescer seguindo esta carreira.</p>
+                <p>Formado em Ciência da Computação pela Universidade de Julho, tenho certificado de Design Gráfico pela Micro+ Informática, recentemente atuei na finalização de uma revista com o Adobe InDesign e leves edições de imagens no Photoshop.
+                Durante meu período de estudos na faculdade, atuei como programador Php aos sábados como parte de um projeto durante 6 meses, porém nada muito avançado, somente comandos mais básicos, integração com o banco mysql, utilizando o phpmyadmin e início de CRUD.
+                Atualmente curso pela Udemy de forma Online, desenvolvimento em linguagem Ruby com o uso do framework Ruby on Rails além de cursar também JavaScript, busco ingressar na área de desenvolvimento mesmo que seja um cargo júnior para poder iniciar e poder crescer seguindo esta carreira.</p>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-6">
 					<div class="intro-content">
 						<h4>Certificados / Certificações</h4>
 						<ul>
-							<li> - Ruby on Rails - Udemy (Cursando) </li>
-							<li> - Design Gráfico - Micro+ Informática </li>
-							<li> - Html5 e Css3 - Curso em vídeo</li>
+							<li> - JavaScript - Udemy <b>(Cursando)</b></li>
+							<li> - Ruby on Rails - Udemy <b>(Cursando)</b> </li>
+							<li> - Design Gráfico - Micro+ Informática</li>
+							<li> - HTML5 e CSS3 - Curso em vídeo</li>
 							<li> - PHP Básico - Curso em vídeo</li>
+							<li> - Informática - Micro+ Informática</li>
+							<li> - Curso Técnico de Administração - ETEC</li>
 						</ul>
 					</div>
 				</div>
@@ -118,18 +123,26 @@
                         <p></p>
                     </div>
                 </div>
-                <!-- Lista caso necessária
-                <div class="col-md-3 col-sm-6">
+            </div>
+        </div>
+    </section>
+    <!-- Experience Section -->
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
                     <div class="intro-content">
-                        <h4>Certificados / Certificações</h4>
-                        <ul>
-                            <li> - Ruby on Rails - Udemy (Cursando) </li>
-                            <li> - Design Gráfico - Micro+ Informática </li>
-                            <li> - Html5 e Css3 - Curso em vídeo</li>
-                            <li> - PHP Básico - Curso em vídeo</li>
-                        </ul>
+                        <h1>Projetos
+                        </h1>
                     </div>
-                </div> -->
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="intro-content">
+                        <a href="http://agenda-cursoudemy.herokuapp.com">Agenda desenvolvida em Ruby on Rails</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -139,7 +152,7 @@
 	<section id="works" class="works section no-padding">
 		<div class="container-fluid">
 			<div class="row no-gutter">
-				<div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-1.jpg" class="work-box"> <img src="images/work-1.jpg" alt="">
+				<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 work"> <a href="images/work-1.jpg" class="work-box"> <img src="images/work-1.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
             <p><i class="fa fa-search-plus fa-2x"></i></p>
@@ -147,7 +160,7 @@
         </div>
         <!-- overlay -->
         </a> </div>
-				<div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-2.jpg" class="work-box"> <img src="images/work-2.jpg" alt="">
+				<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 work"> <a href="images/work-2.jpg" class="work-box"> <img src="images/work-2.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
             <p><i class="fa fa-search-plus fa-2x"></i></p>
@@ -155,7 +168,7 @@
         </div>
         <!-- overlay -->
         </a> </div>
-				<div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-3.jpg" class="work-box"> <img src="images/work-3.jpg" alt="">
+				<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 work"> <a href="images/work-3.jpg" class="work-box"> <img src="images/work-3.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
             <p><i class="fa fa-search-plus fa-2x"></i></p>
@@ -163,7 +176,7 @@
         </div>
         <!-- overlay -->
         </a> </div>
-				<div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-4.jpg" class="work-box"> <img src="images/work-4.jpg" alt="">
+				<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 work"> <a href="images/work-4.jpg" class="work-box"> <img src="images/work-4.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
             <p><i class="fa fa-search-plus fa-2x"></i></p>
@@ -171,7 +184,7 @@
         </div>
         <!-- overlay -->
         </a> </div>
-				<div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-5.jpg" class="work-box"> <img src="images/work-5.jpg" alt="">
+				<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 work"> <a href="images/work-5.jpg" class="work-box"> <img src="images/work-5.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
             <p><i class="fa fa-search-plus fa-2x"></i></p>
@@ -179,7 +192,7 @@
         </div>
         <!-- overlay -->
         </a> </div>
-				<div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-6.jpg" class="work-box"> <img src="images/work-6.jpg" alt="">
+				<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 work"> <a href="images/work-6.jpg" class="work-box"> <img src="images/work-6.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
             <p><i class="fa fa-search-plus fa-2x"></i></p>
@@ -187,7 +200,7 @@
         </div>
         <!-- overlay -->
         </a> </div>
-				<div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-7.jpg" class="work-box"> <img src="images/work-7.jpg" alt="">
+				<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 work"> <a href="images/work-7.jpg" class="work-box"> <img src="images/work-7.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
             <p><i class="fa fa-search-plus fa-2x"></i></p>
@@ -195,7 +208,7 @@
         </div>
         <!-- overlay -->
         </a> </div>
-				<div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-8.jpg" class="work-box"> <img src="images/work-8.jpg" alt="">
+				<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 work"> <a href="images/work-8.jpg" class="work-box"> <img src="images/work-8.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
             <p><i class="fa fa-search-plus fa-2x"></i></p>
@@ -203,7 +216,7 @@
         </div>
         <!-- overlay -->
         </a> </div>
-				<div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-9.jpg" class="work-box"> <img src="images/work-9.jpg" alt="">
+				<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 work"> <a href="images/work-9.jpg" class="work-box"> <img src="images/work-9.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
             <p><i class="fa fa-search-plus fa-2x"></i></p>
@@ -211,7 +224,7 @@
         </div>
         <!-- overlay -->
         </a> </div>
-				<div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-10.jpg" class="work-box"> <img src="images/work-10.jpg" alt="">
+				<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 work"> <a href="images/work-10.jpg" class="work-box"> <img src="images/work-10.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
             <p><i class="fa fa-search-plus fa-2x"></i></p>
@@ -219,7 +232,7 @@
         </div>
         <!-- overlay -->
         </a> </div>
-				<div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-11.jpg" class="work-box"> <img src="images/work-11.jpg" alt="">
+				<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 work"> <a href="images/work-11.jpg" class="work-box"> <img src="images/work-11.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
             <p><i class="fa fa-search-plus fa-2x"></i></p>
@@ -227,7 +240,7 @@
         </div>
         <!-- overlay -->
         </a> </div>
-				<div class="col-lg-2 col-md-4 col-sm-4 work"> <a href="images/work-12.jpg" class="work-box"> <img src="images/work-12.jpg" alt="">
+				<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 work"> <a href="images/work-12.jpg" class="work-box"> <img src="images/work-12.jpg" alt="">
         <div class="overlay">
           <div class="overlay-caption">
             <p><i class="fa fa-search-plus fa-2x"></i></p>
@@ -243,10 +256,13 @@
 	<!-- footer section -->
 	<footer id="contact" class="footer">
 		<div class="container">
-
+            <div class="intro-content">
+                        <h1>Contato
+                        </h1>
+                    </div><br/>
 			<!--	Form	-->
-			<div class="col-md-5">
-				<h4 class="text-center">Contato direto por e-mail</h4>
+			<div class="col-md-6">
+				<h4 class="text-center">Formulário para contato direto por e-mail</h4>
 				<form action="mail_send.php" method="post">
 					<fieldset>
 						<p><label for="email">E-mail: </label>
@@ -267,21 +283,17 @@
 				</form>
 			</div>
 			<!--	end form	-->
-			<div class="col-md-4">
-				<h4>Informações de Contato</h4>
-				<p>Celular: (11) 97339-2693 <br> Recado: (11) 3283-2482 <br> Email : <a href="mailto:adriano.andrade.silva@hotmail.com"> adriano.andrade.silva@hotmail.com </a></p>
-			</div>
-			<div class="col-md-3">
+			<div class="col-md-6">
+                <h4>Informações de Contato</h4>
+                    <p>Email: <a href="mailto:adriano.andrade.silva@hotmail.com"> adriano.andrade.silva@hotmail.com </a></p>
 				<h4>Redes Sociais</h4>
-				<ul class="footer-share">
-					<li><a href="http://www.facebook.com/AdrianoASilva"><i class="fa fa-facebook"></i>Facebook</a></li><br>
-					<li><a href="http://www.twitter.com/AdrianAndrad"><i class="fa fa-twitter"></i>Twitter</a></li><br>
-					<li><a href="http://www.linkedin.com/in/AdrianoA1/"><i class="fa fa-linkedin"></i>Linkedin</a></li><br>
-					<li><a href="https://github.com/Adriano0106"><i class="fa fa-git"></i>Github</a></li><br>
-				</ul>
-				<!-- <p></p> -->
+    				<ul class="footer-share">
+    					<li><a href="http://www.facebook.com/AdrianoASilva"><i class="fa fa-facebook"></i>Facebook</a></li><br>
+    					<li><a href="http://www.twitter.com/AdrianAndrad"><i class="fa fa-twitter"></i>Twitter</a></li><br>
+    					<li><a href="http://www.linkedin.com/in/AdrianoA1/"><i class="fa fa-linkedin"></i>Linkedin</a></li><br>
+    					<li><a href="https://github.com/Adriano0106"><i class="fa fa-git"></i>Github</a></li><br>
+    				</ul>
 			</div>
-
 		</div>
 
 		<div id="rodape">
@@ -296,5 +308,4 @@
 	<!-- footer section -->
 
 </body>
-
 </html>
